@@ -11,7 +11,7 @@ I tried to make it very simple to remove distractions as much as possbible:
 _Note_: I only tested for Java, JavaScript/TypeScript, React, CSS/SASS. There might be "strange" colors in other languages (and even in the mentioned ones).
 
 **Example:** TypeScript Editor
-![TypeScript](https://cdn.rawgit.com/nilshartmann/vscode-blue-light-theme/master/screenshot_01.png)
+![TypeScript](https://raw.githubusercontent.com/nilshartmann/vscode-blue-light-theme/master/screenshot_01.png)
 
 In addition to this theme I set the following settings:
 
@@ -61,10 +61,10 @@ For bracket matching I use [Subtle Match Brackets](https://marketplace.visualstu
 	"workbench.activityBar.visible": false,
 	"workbench.editor.showIcons": false,
 	"editor.suggestOnTriggerCharacters": false,
-  // use shortcut Cmd+Shift+Space insteadto open parameter hints if needed
+  // use shortcut Cmd+Shift+Space insteadt open parameter hints if needed
 	"editor.parameterHints.enabled": false,
 	"editor.parameterHints.cycle": true
 ```
 
 **Example:** Java Editor
-![Java]((https://cdn.rawgit.com/nilshartmann/vscode-blue-light-theme/master/screenshot_02-java.png)
+![Java](https://raw.githubusercontent.com/nilshartmann/vscode-blue-light-theme/master/screenshot_02-java.png)
