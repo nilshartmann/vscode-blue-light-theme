@@ -1,22 +1,22 @@
 {
-    "name": "blue-light",
-    "displayName": "blue-light",
-    "description": "Light theme with blue colors",
-    "version": "0.0.1",
-    "publisher": "msnilshartmann",
-    "engines": {
-        "vscode": "^1.28.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "blue-light",
-                "uiTheme": "vs",
-                "path": "./themes/blue-light-color-theme.json"
-            }
-        ]
-    }
+  "name": "blue-light",
+  "displayName": "Blue Light Theme",
+  "description": "Light theme with blue colors",
+  "version": "0.0.1",
+  "publisher": "msnilshartmann",
+  "engines": {
+    "vscode": "^1.28.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Blue Light Theme",
+        "uiTheme": "vs",
+        "path": "./themes/blue-light-color-theme.json"
+      }
+    ]
+  }
 }

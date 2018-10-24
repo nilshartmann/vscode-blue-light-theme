@@ -15,6 +15,10 @@ _Note_: I only tested for Java, JavaScript/TypeScript, React, CSS/SASS. There mi
 
 In addition to this theme I set the following settings:
 
+**File Icons**
+
+- Seti (Visual Studio Code)
+
 **Font**
 
 ```
