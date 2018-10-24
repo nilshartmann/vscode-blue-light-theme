@@ -2,8 +2,9 @@
   "name": "blue-light",
   "displayName": "Blue Light Theme",
   "description": "Light theme with blue colors",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "msnilshartmann",
+  "author": "Nils Hartmann",
   "engines": {
     "vscode": "^1.28.0"
   },
@@ -22,5 +23,6 @@
         "path": "./themes/blue-light-color-theme.json"
       }
     ]
-  }
+  },
+  "icon": "blue-light-icon.png"
 }
