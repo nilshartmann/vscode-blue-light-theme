@@ -20,3 +20,7 @@ All notable changes to the "blue-light" extension will be documented in this fil
 
 - More decent background color for active tabs
 - better error color in list views (for example sidebar)
+
+## [0.0.7]
+
+- Try to reduce colors
