@@ -10,3 +10,8 @@ All notable changes to the "blue-light" extension will be documented in this fil
 
 - All backgrounds in white (`##ffffff`)
 - Change background of debug status bar
+
+## [0.0.4]
+
+- Deeper blue for active tab
+- darker color for active items in list (i.e. suggestion box)
