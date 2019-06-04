@@ -15,3 +15,8 @@ All notable changes to the "blue-light" extension will be documented in this fil
 
 - Deeper blue for active tab
 - darker color for active items in list (i.e. suggestion box)
+
+## [0.0.6]
+
+- More decent background color for active tabs
+- better error color in list views (for example sidebar)
