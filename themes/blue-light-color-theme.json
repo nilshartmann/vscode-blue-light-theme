@@ -55,7 +55,7 @@
     "editorSuggestWidget.selectedBackground": "#e8e8e8",
     "editorSuggestWidget.background": "#fafafa",
     "editorWarning.foreground": "#428226",
-    "editorWidget.background": "#f4f4f4",
+    "editorWidget.background": "#ffffff",
     "editorWidget.border": "#cccccc",
     "focusBorder": "#d8efff",
     "gitDecoration.addedResourceForeground": "#5b7685",

@@ -24,3 +24,7 @@ All notable changes to the "blue-light" extension will be documented in this fil
 ## [0.0.7]
 
 - Try to reduce colors
+
+## [0.0.8]
+
+- Improve editor suggestion box
