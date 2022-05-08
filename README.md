@@ -34,7 +34,7 @@ In addition to this theme, I set the following user settings in my VS Code insta
 
 **Hide elements from the UI**
 
-```
+```json
 	"editor.minimap.enabled": false,
 	"explorer.openEditors.visible": 0,
 	"editor.quickSuggestions": {
