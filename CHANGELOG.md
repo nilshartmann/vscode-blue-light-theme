@@ -32,3 +32,7 @@ All notable changes to the "blue-light" extension will be documented in this fil
 ## [0.2.0]
 
 - better contrast: fix font foreground color of selected item in editorSuggestWidget
+
+## [0.2.2]
+
+- fix contrast in highlights of lists
