@@ -32,19 +32,6 @@ In addition to this theme, I set the following user settings in my VS Code insta
 	"terminal.integrated.fontWeightBold": "400",
 ```
 
-**Bracket matching**
-For bracket matching I use [Subtle Match Brackets](https://marketplace.visualstudio.com/items?itemName=rafamel.subtle-brackets) with following settings:
-
-```
-  // use subtle brackets instead
-  "editor.matchBrackets": false,
-	"subtleBrackets.style": {
-		"borderColor": "#795e26",
-		"borderStyle": "none none solid none",
-		"borderWidth": "1px"
-	},
-```
-
 **Hide elements from the UI**
 
 ```
@@ -55,9 +42,11 @@ For bracket matching I use [Subtle Match Brackets](https://marketplace.visualstu
 		"comments": false,
 		"strings": false
 	},
-	"editor.wordBasedSuggestions": false,
+  "editor.suggest.showWords": false,
 	"breadcrumbs.enabled": false,
 	"workbench.editor.enablePreview": false,
+  "editor.cursorStyle": "line",
+  "editor.hideCursorInOverviewRuler": true,
 	"editor.occurrencesHighlight": false,
 	"editor.overviewRulerBorder": false,
 	"editor.renderIndentGuides": false,
