@@ -142,7 +142,7 @@
     "terminal.ansiWhite": "#f7f7f7",
     "terminal.ansiYellow": "#a56416",
     "terminal.background": "#ffffff",
-    "terminal.foreground": "#1a1a1a",
+    "terminal.foreground": "#9b9b9b",
     "terminalCursor.background": "#ffffff",
     "terminalCursor.foreground": "#3cbaef",
     "textLink.activeForeground": "#009fff",

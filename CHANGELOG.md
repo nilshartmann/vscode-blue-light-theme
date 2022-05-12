@@ -36,3 +36,7 @@ All notable changes to the "blue-light" extension will be documented in this fil
 ## [0.4]
 
 - fix contrasts of highlights in lists
+
+## [0.4.1]
+
+- dim terminal black font
