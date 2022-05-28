@@ -40,3 +40,7 @@ All notable changes to the "blue-light" extension will be documented in this fil
 ## [0.4.1]
 
 - dim terminal black font
+
+## [0.5]
+
+- add `blue-light-2022` theme with different colors (more blue...) and italic fonts
