@@ -2,7 +2,7 @@
 
 **Note that there are two themes: _blue-light_
 and _blue-light-2022_**. _blue-light-2022_ is a
-new scheme with italic fonts. See screenshot below.
+new (work-in-progress) scheme with italic fonts and different colors. See screenshot below.
 
 This is a light theme for Visual Studio Code with mostly
 blue colors.
