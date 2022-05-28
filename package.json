@@ -18,6 +18,11 @@
   "contributes": {
     "themes": [
       {
+        "label": "Blue Light Theme 2022",
+        "uiTheme": "vs",
+        "path": "./themes/blue-light-2022-color-theme.json"
+      },
+      {
         "label": "Blue Light Theme",
         "uiTheme": "vs",
         "path": "./themes/blue-light-color-theme.json"
