@@ -31,8 +31,8 @@
     "editor.selectionHighlightBackground": "#e2eefa",
     "editor.wordHighlightBackground": "#e2eefa",
     "editor.wordHighlightStrongBackground": "#6a6dff36",
-    "editorBracketMatch.background": "#e2eefa",
-    "editorBracketMatch.border": "#367B42",
+    "editorBracketMatch.background": "#b8d8f9",
+    "editorBracketMatch.border": "#b8d8f9",
     "editorCursor.foreground": "#00bbec",
     "editorError.foreground": "#A56416",
     "editorGroup.border": "#ffffff",
@@ -175,20 +175,6 @@
       }
     },
     {
-      "name": "Strings",
-      "scope": "string",
-      "settings": {
-        "foreground": "#A44185"
-      }
-    },
-    {
-      "name": "RegExp",
-      "scope": "string",
-      "settings": {
-        "foreground": "#3778B7"
-      }
-    },
-    {
       "name": "String Interpolation Begin and End",
       "scope": "begin.expression.string, end.expression.string",
       "settings": {
@@ -277,13 +263,6 @@
       "scope": "this.class.meta",
       "settings": {
         "foreground": "#428226"
-      }
-    },
-    {
-      "name": "function argument",
-      "scope": "variable.parameter, function.parameters.entity.name.meta",
-      "settings": {
-        "foreground": "#3778B7"
       }
     },
     {
@@ -693,7 +672,7 @@
     },
     {
       "name": "Storage Modifiers",
-      "scope": "storage.modifier, variable.other.object.ts, variable.other.readwrite.ts, entity.other.attribute-name.tsx, entity.name.tag.css, punctuation.definition.heading.markdown, entity.name.section.markdown",
+      "scope": "variable.parameter, meta.function.tsx variable.other.object.tsx,storage.modifier, variable.other.object.ts, variable.other.readwrite.ts, entity.other.attribute-name.tsx, entity.name.tag.css, punctuation.definition.heading.markdown, entity.name.section.markdown",
       "settings": {
         "foreground": "#2770C0"
       }
@@ -718,13 +697,13 @@
       }
     },
     {
-      "scope": "entity.name.function.java, entity.name.type.alias.ts, entity.name.type.ts, entity.name.fragment.graphql, entity.name.type.alias.tsx, entity.name.type.tsx, variable.other.object.tsx",
+      "scope": "entity.name.function.java, entity.name.type.alias.ts, entity.name.type.ts, entity.name.fragment.graphql, entity.name.type.alias.tsx, entity.name.type.tsx, variable.other.object.tsx, variable.other.object.property.tsx",
       "settings": {
         "foreground": "#367B42"
       }
     },
     {
-      "scope": "variable.other.readwrite.alias.ts, variable.other.readwrite.alias.tsx, support.type.graphql, entity.name.function.tsx, markup.inline.raw.string.markdown, storage.modifier.package.java, storage.modifier.import.java",
+      "scope": "variable.other.readwrite.alias.ts, variable.other.readwrite.alias.tsx, support.type.graphql, entity.name.function.tsx, markup.inline.raw.string.markdown, storage.modifier.package.java, storage.modifier.import.java, meta.import.tsx string.quoted.double.tsx, meta.import.tsx string.quoted.single.tsx ",
       "settings": {
         "foreground": "#A44185"
       }
@@ -757,7 +736,6 @@
         "foreground": "#A56416"
       }
     },
-
     {
       "scope": "meta.class.body.java, meta.definition.variable.java, variable.other.object.property.java, variable.parameter.java, variable.other.object.java, variable.other.definition.java, punctuation.definition.block.ts, punctuation.definition.block.tsx, source.ignore, text.html.markdown",
       "settings": {
@@ -765,9 +743,9 @@
       }
     },
     {
-      "scope": "string.quoted.double.java, string.quoted.double.json, variable.other.object.property.tsx",
+      "scope": "string, string.quoted.double.java, string.quoted.double.json",
       "settings": {
-        "foreground": "#367B42"
+        "foreground": "#3d9189"
       }
     },
 
@@ -1456,13 +1434,6 @@
       "scope": "punctuation.accessor",
       "settings": {
         "foreground": "#012339"
-      }
-    },
-    {
-      "name": "String",
-      "scope": "string",
-      "settings": {
-        "foreground": "#A44185"
       }
     },
     {

@@ -48,3 +48,7 @@ All notable changes to the "blue-light" extension will be documented in this fil
 ## [0.5.1]
 
 - `blue-light-2022`: Improve JSX/TSX colors
+
+## [0.5.2]
+
+- `blue-light-2022`: Improve JSX/TSX colors (strings, JSX elements)
