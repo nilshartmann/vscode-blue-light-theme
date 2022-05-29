@@ -27,8 +27,8 @@ In addition to this theme, I set the following user settings in my VS Code insta
 
 ```
   "editor.fontFamily": "Fira Code",
-  "editor.fontSize": 14,
-  "editor.lineHeight": 21,
+  "editor.fontSize": 17,
+  "editor.lineHeight": 22,
   "editor.fontWeight": "400",
   "editor.fontLigatures": true,
   "terminal.integrated.fontSize": 13,
@@ -52,6 +52,7 @@ For the **2022 theme** with italic font, I'm using
   "editor.suggest.showWords": false,
 	"breadcrumbs.enabled": false,
 	"workbench.editor.enablePreview": false,
+  "editor.bracketPairColorization.enabled": false,
   "editor.cursorStyle": "line",
   "editor.hideCursorInOverviewRuler": true,
 	"editor.occurrencesHighlight": false,

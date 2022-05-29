@@ -44,3 +44,7 @@ All notable changes to the "blue-light" extension will be documented in this fil
 ## [0.5]
 
 - add `blue-light-2022` theme with different colors (more blue...) and italic fonts
+
+## [0.5.1]
+
+- `blue-light-2022`: Improve JSX/TSX colors

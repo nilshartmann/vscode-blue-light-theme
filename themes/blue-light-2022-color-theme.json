@@ -32,7 +32,7 @@
     "editor.wordHighlightBackground": "#e2eefa",
     "editor.wordHighlightStrongBackground": "#6a6dff36",
     "editorBracketMatch.background": "#e2eefa",
-    "editorBracketMatch.border": "#6ba9cb15",
+    "editorBracketMatch.border": "#367B42",
     "editorCursor.foreground": "#00bbec",
     "editorError.foreground": "#A56416",
     "editorGroup.border": "#ffffff",
@@ -161,9 +161,10 @@
     },
     {
       "name": "Operators",
-      "scope": "keyword.operator, operator.annotation.type.keyword, var.expr.primitive.annotation.type.keyword.meta",
+      "scope": "keyword.operator, operator.annotation.type.keyword, var.expr.primitive.annotation.type.keyword.meta, meta.tag.attributes.tsx keyword.operator.assignment.tsx",
       "settings": {
-        "foreground": "#012339"
+        "foreground": "#012339",
+        "fontStyle": ""
       }
     },
     {
@@ -220,14 +221,6 @@
       "scope": "constant.character, constant.other",
       "settings": {
         "foreground": "#428226"
-      }
-    },
-    {
-      "name": "Keyword",
-      "scope": "keyword",
-      "settings": {
-        "foreground": "#2770C0",
-        "fontStyle": "italic"
       }
     },
     {
@@ -700,7 +693,7 @@
     },
     {
       "name": "Storage Modifiers",
-      "scope": "storage.modifier, variable.other.object.ts, variable.other.readwrite.ts, support.class.component.tsx, entity.other.attribute-name.tsx, entity.name.tag.css, punctuation.definition.heading.markdown, entity.name.section.markdown",
+      "scope": "storage.modifier, variable.other.object.ts, variable.other.readwrite.ts, entity.other.attribute-name.tsx, entity.name.tag.css, punctuation.definition.heading.markdown, entity.name.section.markdown",
       "settings": {
         "foreground": "#2770C0"
       }
@@ -718,7 +711,7 @@
       }
     },
     {
-      "scope": "storage.modifier.java, variable.language.this.java, keyword.operator.instanceof.java, keyword.control.export, storage.type.type.ts, support.type.primitive.ts, storage.type.function.ts, keyword.operator.new.ts, support.type.primitive.tsx, storage.type.tsx, constant.language.boolean.true.tsx, storage.type.type.tsx, entity.other.keyframe-offset.css",
+      "scope": "keyword, storage.modifier.java, variable.language.this.java, keyword.operator.instanceof.java, keyword.control.export, storage.type.type.ts, support.type.primitive.ts, storage.type.function.ts, keyword.operator.new.ts, support.type.primitive.tsx, storage.type.tsx, constant.language.boolean.true.tsx, storage.type.type.tsx, entity.other.keyframe-offset.css, storage.type.function.tsx",
       "settings": {
         "foreground": "#2770C0",
         "fontStyle": "italic"
@@ -731,7 +724,7 @@
       }
     },
     {
-      "scope": "variable.other.readwrite.alias.ts, variable.other.readwrite.alias.tsx, support.type.graphql, meta.tag.attributes.tsx keyword.operator.assignment.tsx, entity.name.function.tsx, markup.inline.raw.string.markdown, storage.modifier.package.java, storage.modifier.import.java",
+      "scope": "variable.other.readwrite.alias.ts, variable.other.readwrite.alias.tsx, support.type.graphql, entity.name.function.tsx, markup.inline.raw.string.markdown, storage.modifier.package.java, storage.modifier.import.java",
       "settings": {
         "foreground": "#A44185"
       }
@@ -766,7 +759,7 @@
     },
 
     {
-      "scope": "meta.class.body.java, meta.definition.variable.java, variable.other.object.property.java, variable.parameter.java, variable.other.object.java, variable.other.definition.java, punctuation.definition.block.ts, source.ignore, text.html.markdown",
+      "scope": "meta.class.body.java, meta.definition.variable.java, variable.other.object.property.java, variable.parameter.java, variable.other.object.java, variable.other.definition.java, punctuation.definition.block.ts, punctuation.definition.block.tsx, source.ignore, text.html.markdown",
       "settings": {
         "foreground": "#012339"
       }
@@ -1523,7 +1516,7 @@
       }
     },
     {
-      "scope": ["entity.name.tag"],
+      "scope": ["entity.name.tag", "support.class.component.tsx"],
       "settings": {
         "foreground": "#a56416"
       }
