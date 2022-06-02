@@ -57,3 +57,7 @@ All notable changes to the "blue-light" extension will be documented in this fil
 
 - `blue-light-2022`: fix typescript interface name
 - `blue-light-2022`: separate colors for (typescript) keywords
+
+## [0.6.1]
+
+- `blue-light-2022`: fix typescript `infer` keyword
