@@ -52,3 +52,8 @@ All notable changes to the "blue-light" extension will be documented in this fil
 ## [0.5.2]
 
 - `blue-light-2022`: Improve JSX/TSX colors (strings, JSX elements)
+
+## [0.6]
+
+- `blue-light-2022`: fix typescript interface name
+- `blue-light-2022`: separate colors for (typescript) keywords
