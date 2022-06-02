@@ -711,7 +711,7 @@
     },
 
     {
-      "scope": "keyword.operator.expression.keyof.ts, keyword.operator.expression.in.ts, keyword.operator.expression.typeof.ts, keyword.operator.expression.infer.ts",
+      "scope": "keyword.operator.expression.keyof.ts, keyword.operator.expression.in.ts, keyword.operator.expression.typeof.ts, keyword.operator.expression.infer.ts, storage.modifier.ts",
       "settings": {
         "foreground": "#A44185",
         "fontStyle": "italic"
