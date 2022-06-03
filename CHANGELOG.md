@@ -65,3 +65,7 @@ All notable changes to the "blue-light" extension will be documented in this fil
 ## [0.6.2]
 
 - `blue-light-2022`: fix more typescript keywords
+
+## [0.6.3]
+
+- `blue-light-2022`: align and clean up typescript colors

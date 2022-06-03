@@ -33,8 +33,7 @@
     "editor.wordHighlightStrongBackground": "#6a6dff36",
     "editorBracketMatch.background": "#b8d8f9",
     "editorBracketMatch.border": "#b8d8f9",
-    "editorCursor.foreground": "#00bbec",
-    "editorError.foreground": "#A56416",
+    "editorError.foreground": "#EC0303",
     "editorGroup.border": "#ffffff",
     "editorGroup.dropBackground": "#f1f1f1",
     "editorGroupHeader.noTabsBackground": "#ffffff",
@@ -690,7 +689,7 @@
       }
     },
     {
-      "scope": "keyword, storage.modifier.java, variable.language.this.java, keyword.operator.instanceof.java, keyword.control.export, support.type.primitive.ts, storage.type.function.ts, keyword.operator.new.ts, support.type.primitive.tsx, storage.type.tsx, constant.language.boolean.true.tsx, storage.type.type.tsx, entity.other.keyframe-offset.css, storage.type.function.tsx",
+      "scope": "keyword, storage.modifier.java, variable.language.this.java, keyword.operator.instanceof.java, keyword.control.export, storage.type.function.ts, keyword.operator.new.ts, support.type.primitive.tsx, storage.type.tsx, constant.language.boolean.true.tsx, storage.type.type.tsx, entity.other.keyframe-offset.css, storage.type.function.tsx, storage.type.ts",
       "settings": {
         "foreground": "#2770C0",
         "fontStyle": "italic"
@@ -703,7 +702,7 @@
       }
     },
     {
-      "scope": "storage.type.interface.ts, storage.type.type.ts",
+      "scope": "xxxx",
       "settings": {
         "foreground": "#A56416",
         "fontStyle": "italic"
@@ -711,12 +710,19 @@
     },
 
     {
-      "scope": "keyword.operator.expression.keyof.ts, keyword.operator.expression.in.ts, keyword.operator.expression.typeof.ts, keyword.operator.expression.infer.ts, storage.modifier.ts",
+      "scope": "support.type.primitive.ts, storage.type.interface.ts, storage.type.type.ts, keyword.operator.expression.keyof.ts, keyword.operator.expression.in.ts, keyword.operator.expression.typeof.ts, keyword.operator.expression.infer.ts, storage.modifier.ts",
       "settings": {
-        "foreground": "#A44185",
+        "foreground": "#2770C0",
         "fontStyle": "italic"
       }
     },
+    {
+      "scope": "meta.type.parameters.ts entity.name.type.ts, meta.type.tuple.ts entity.name.type.ts, meta.type.declaration.ts entity.name.type.ts",
+      "settings": {
+        "foreground": "#3d9189"
+      }
+    },
+
     {
       "scope": "variable.other.readwrite.alias.ts, variable.other.readwrite.alias.tsx, support.type.graphql, entity.name.function.tsx, markup.inline.raw.string.markdown, storage.modifier.package.java, storage.modifier.import.java, meta.import.tsx string.quoted.double.tsx, meta.import.tsx string.quoted.single.tsx ",
       "settings": {
@@ -1473,7 +1479,7 @@
     {
       "scope": "token.error-token",
       "settings": {
-        "foreground": "#cd3131"
+        "foreground": "#EC0303"
       }
     },
     {
