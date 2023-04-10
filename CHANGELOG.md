@@ -69,3 +69,7 @@ All notable changes to the "blue-light" extension will be documented in this fil
 ## [0.6.3]
 
 - `blue-light-2022`: align and clean up typescript colors
+
+## [0.6.4]
+
+- `blue-light-2022`: fix transparency of scrollbar slider. Thanks for reporting, [driftwoodstudio](https://github.com/driftwoodstudio)
